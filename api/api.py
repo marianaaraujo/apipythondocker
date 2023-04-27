@@ -68,4 +68,4 @@ class Users(Resource):
 
 api.add_resource(Users, "/users/<string:name>")
 
-app.run(host='127.0.0.1', port=5000, debug=True)
+app.run(port=5000, debug=True)
