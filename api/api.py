@@ -6,4 +6,4 @@ app = Flask(__name__)
 def teste():
     return render_template("oi.html")
 
-app.run(port=5000, debug=True)
+app.run(host='localhost', port=5000, debug=True)
